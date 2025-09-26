@@ -1,0 +1,49 @@
+.positionWrapper {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #f2f1f6;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+
+}
+
+.leftHeader {
+    display: flex;
+    gap: 12px;
+}
+
+.leftHeader text {
+    font-size: 14px;
+}
+
+
+.rightHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 6px;
+}
+
+.info .title {
+    font-size: 16px;
+    align-self: flex-end;
+}
+
+.info .number {
+    font-size: 24px;
+    font-weight: 500;
+    align-self: flex-end;
+
+}

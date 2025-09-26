@@ -1,4 +1,14 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.divider {
+  border: 1px solid #e4e3e9;
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -39,4 +49,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */

@@ -1,0 +1,42 @@
+/* Navbar.module.css */
+.navbar {
+    /* border: 1px solid #ddd; */
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #f2f1f6;
+
+}
+
+.leftSide,
+.center,
+.rightSide {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    /* background-image: url('/assets/logo.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    font-size: 18px;
+
+}
+
+.center {
+    display: flex;
+    gap: 12px;
+}
+
+.center p {
+    font-size: 18px;
+}
+
+.rightSide {
+    font-size: 18px;
+
+}

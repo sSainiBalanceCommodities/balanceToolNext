@@ -1,0 +1,61 @@
+.birthdayCard {
+
+    width: 300px;
+    height: 100px;
+    padding: 0.5rem;
+    border-radius: 16px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: #eeedf2;
+
+
+}
+
+.cardWrapper {
+    display: flex;
+    background-color: #fff;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+
+}
+
+.image {
+
+    width: 100px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    padding: 0 0.5rem;
+
+
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.designation {
+    font-size: 12px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 600;
+}

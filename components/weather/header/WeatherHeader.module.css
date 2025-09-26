@@ -1,0 +1,8 @@
+.header {
+    height: 60px;
+    padding: 0.5rem;
+}
+
+.leftSide {
+    display: flex;
+}

@@ -1,0 +1,32 @@
+.table {
+    overflow-x: auto;
+    padding: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.balanceDeltaTable {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+
+.balanceDeltaTable th,
+.balanceDeltaTable td {
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.balanceDeltaTable th {
+    padding: 4.5px 1px;
+    /* dark header */
+    color: #000;
+    background-color: #fff;
+    font-weight: bold;
+
+
+}
